@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/sweetalert2/dist/sweetalert2.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/sweetalert2/dist/sweetalert2.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "final-project"
+    }
+  },
+  "defaultProject": "final-project",
+  "cli": {
+    "analytics": "a754cfd4-03ad-494c-b7b8-4ec205ce29f5"
+  }
 }
